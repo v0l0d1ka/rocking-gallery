@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 100; 
+	overflow: hidden;
+}
+
+header {
+	min-height: 60px;
+	background-color: #282828;
+	position: fixed;
+	width: 100%;
+	z-index: 9000;
+}
+
+header h1 {
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.main {
+	min-height: 2000px;
+	background-color: #000000;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+a.fancybox {
+	display: inline-block;
+	width: 30%;
+}
+
+.fancybox img {
+	max-width: 100%;
+	margin: 0 15px 15px 0;
+}
+
+.popup img {
+	max-width: 100%;	
+}
+
+.popup div {
+	background: #282828 url('../images/bg.png') no-repeat 20px 20px;
+	padding: 50px 20px 30px 20px;
+	width: 340px;
+	height: 99.5%;
+	box-sizing: border-box;
+	top: 62px;
+	right: 0;
+	position: fixed;
+	overflow: scroll;
+}
+
+.popup div h2 {
+	color: #fff;
+	margin-top: 25px;
+	font-size: 45px;
+}
+
+.popup div h3 {
+	font-size: 24px;
+	color: #fff;
+}
+
+.popup div img {
+	/*position: absolute;
+	bottom: 20px;*/
+	margin: 20px 0;
+}
+
+.fancybox-overlay-fixed {
+	background-color: #000;
+	background-image: none;
+}
+
+.fancybox-close {
+	top: -35px;
+    right: 0;
+}
+
+.fancybox-skin {
+	background: transparent;
+}
+
+.fancybox-nav{
+	height: 104%;
+}
+
+.fancybox-nav span {
+	top: 100%;
+}
+
+.fancybox-next span {
+	background: url('../images/arrow.png') no-repeat 0 0;
+	right: -15px;
+}
+
+.fancybox-prev span {
+	background: url('../images/arrow-l.png') no-repeat 0 0;
+	left: 0;
+}
+
